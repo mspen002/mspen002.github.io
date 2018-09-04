@@ -25,7 +25,7 @@ img {
 }
 
 main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
   box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
   -30px 0px 40px rgba(0, 0, 0, 0.4)
@@ -108,6 +108,22 @@ main {
   transition: background 500ms ease;
 }
 
+.btn4 {
+  padding: 0.5rem 1rem;
+  border: 1px #ccc solid;
+  text-align: center;
+  justify-content: center;
+  transition: background 1000ms ease;
+  display: block;
+  margin: 1rem 0 0;
+  text-decoration: none;
+  color: #4078c0
+}
+.btn4:hover {
+  background: #eee;
+  transition: background 500ms ease;
+}
+
 #header {
   padding: 1.5rem;
   text-align: center;
@@ -140,6 +156,8 @@ main {
 .caption {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   text-align: center;
 }
 
