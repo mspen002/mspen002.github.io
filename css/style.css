@@ -72,7 +72,7 @@ main {
 }
 
 .btn1:hover {
-  background: #bd2c00;
+  background: #4078c0;
   transition: background 500ms ease;
 }
 
@@ -88,7 +88,7 @@ main {
 }
 
 .btn2:hover {
-  background: #6cc644;
+  background: #4078c0;
   transition: background 500ms ease;
 }
 
