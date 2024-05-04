@@ -33,12 +33,13 @@ main {
 
 #landing {
   background: #fff;
+  max-height: fit-content;
 }
 
 #landing-text {
-  display: flex;
+  display: flexbox;
   height: 50vh;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   padding-right: 1rem;
@@ -72,7 +73,7 @@ main {
   }
 
   #landing-text {
-    height: 60vh;
+    height: 135vh;
   }
 
   #landing-image {
